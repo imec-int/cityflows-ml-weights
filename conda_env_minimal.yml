@@ -1,0 +1,26 @@
+name: straatvinken-minimal
+dependencies:
+  - python=3.8.12
+  - pip
+  - numpy=1.21
+  - python-dateutil
+  - pandas
+  - gdal
+  - geopandas
+  - georasters
+  - lightgbm=3.3.2
+  - pip:
+    - joblib
+    - matplotlib
+    - scikit-learn==1.0.2
+    - python-dotenv
+    - xgboost==1.5.2
+    - catboost==1.0.4
+    - pytorch-tabnet==3.1.1
+    - folium
+    - streamlit-folium
+    - shap==0.40.0
+    - pyyaml
+    - osgeo
+    - simpledbf
+    

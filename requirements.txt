@@ -1,0 +1,26 @@
+flake8
+m2r
+nbformat
+numpy
+pandas
+pytest
+pytest-cookies
+pytest-cov
+sphinx
+
+ipython-sql
+sqlalchemy
+psycopg2-binary==2.9.2
+geopandas==0.10.2
+ipywidgets==7.6.5
+contextily==1.2.0
+# TODO install gdal before osgeo, which is dependency hell on mac :/
+# HOWTO:
+# xcode --install
+# update xcode in app store
+# brew install gdal --HEAD # headers of gdal
+# brew install gdal
+gdal==3.4.1
+georasters # has a crazy amount of dependencies
+openpyxl # for using pandas.read_excel()
+google_streetview
